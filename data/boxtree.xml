@@ -1,0 +1,489 @@
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:iris="http://service.iris.edu/fdsnws/event/1/" xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://quakeml.org/schema/xsd http://quakeml.org/schema/xsd/QuakeML-1.2.xsd">
+<eventParameters publicID="smi:service.iris.edu/fdsnws/event/1/query">
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=9063258">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201607591</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=6154856</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=6154856" iris:contributorOriginId="06194447" iris:contributor="ISC" iris:contributorEventId="602751908" iris:catalog="ISC">
+<time>
+<value>2013-03-29T19:30:22.760</value>
+</time>
+<creationInfo>
+<author>ISC</author>
+</creationInfo>
+<latitude>
+<value>28.4298</value>
+</latitude>
+<longitude>
+<value>-18.1717</value>
+</longitude>
+<depth>
+<value>10000.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201607591">
+<mag>
+<value>3.6</value>
+</mag>
+<type>ML</type><creationInfo>
+<author>INMG</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=9057273">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201597318</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=6148871</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=6148871" iris:contributorOriginId="06193925" iris:contributor="ISC" iris:contributorEventId="602733964" iris:catalog="ISC">
+<time>
+<value>2013-03-25T05:57:25.390</value>
+</time>
+<creationInfo>
+<author>ISC</author>
+</creationInfo>
+<latitude>
+<value>28.2639</value>
+</latitude>
+<longitude>
+<value>-17.5725</value>
+</longitude>
+<depth>
+<value>10000.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201597318">
+<mag>
+<value>3.2</value>
+</mag>
+<type>ML</type><creationInfo>
+<author>INMG</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=9015140">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201523649</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=6106738</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=6106738" iris:contributorOriginId="03463233" iris:contributor="ISC" iris:contributorEventId="604114738" iris:catalog="ISC">
+<time>
+<value>2013-02-19T00:00:31.140</value>
+</time>
+<creationInfo>
+<author>MDD</author>
+</creationInfo>
+<latitude>
+<value>28.2199</value>
+</latitude>
+<longitude>
+<value>-17.8895</value>
+</longitude>
+<depth>
+<value>0.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201523649">
+<mag>
+<value>2.5</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=8930997">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201356557</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=6022595</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=6022595" iris:contributorOriginId="03416380" iris:contributor="ISC" iris:contributorEventId="604069481" iris:catalog="ISC">
+<time>
+<value>2012-12-05T16:47:44.100</value>
+</time>
+<creationInfo>
+<author>MDD</author>
+</creationInfo>
+<latitude>
+<value>28.8932</value>
+</latitude>
+<longitude>
+<value>-17.5646</value>
+</longitude>
+<depth>
+<value>0.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201356557">
+<mag>
+<value>1.9</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=8930994">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201356545</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=6022592</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=6022592" iris:contributorOriginId="03416379" iris:contributor="ISC" iris:contributorEventId="604069480" iris:catalog="ISC">
+<time>
+<value>2012-12-05T16:45:32.390</value>
+</time>
+<creationInfo>
+<author>MDD</author>
+</creationInfo>
+<latitude>
+<value>28.7959</value>
+</latitude>
+<longitude>
+<value>-17.8458</value>
+</longitude>
+<depth>
+<value>0.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=201356545">
+<mag>
+<value>2.1</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=4637267">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=23996775</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=5492309</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=5492309" iris:contributorOriginId="03393519" iris:contributor="ISC" iris:contributorEventId="17315315" iris:catalog="ISC">
+<time>
+<value>2011-09-30T03:08:49.860</value>
+</time>
+<creationInfo>
+<author>ISC</author>
+</creationInfo>
+<latitude>
+<value>28.2174</value>
+</latitude>
+<longitude>
+<value>-17.8226</value>
+</longitude>
+<depth>
+<value>10000.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=23996773">
+<mag>
+<value>3.0</value>
+</mag>
+<type>ML</type><creationInfo>
+<author>CSEM</author>
+</creationInfo>
+</magnitude>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=23996775">
+<mag>
+<value>2.9</value>
+</mag>
+<type>ML</type><creationInfo>
+<author>INMG</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=2521554">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=203223458</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=4451465</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=4451465" iris:contributorOriginId="10688538" iris:contributor="ISC" iris:contributorEventId="13236600" iris:catalog="ISC">
+<time>
+<value>2007-10-06T13:55:42.180</value>
+</time>
+<creationInfo>
+<author>MDD</author>
+</creationInfo>
+<latitude>
+<value>28.7515</value>
+</latitude>
+<longitude>
+<value>-17.6504</value>
+</longitude>
+<depth>
+<value>34800.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=203223458">
+<mag>
+<value>2.0</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=2462896">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=20258783</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=4325326</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=4325326" iris:contributorOriginId="10454530" iris:contributor="ISC" iris:contributorEventId="11922349" iris:catalog="ISC">
+<time>
+<value>2007-04-11T02:29:29.420</value>
+</time>
+<creationInfo>
+<author>MDD</author>
+</creationInfo>
+<latitude>
+<value>28.2455</value>
+</latitude>
+<longitude>
+<value>-17.7111</value>
+</longitude>
+<depth>
+<value>0.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=20258783">
+<mag>
+<value>1.8</value>
+</mag>
+<type>mb</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=20258782">
+<mag>
+<value>1.0</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=2061225">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19134841</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=3991164</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=3991164" iris:contributorOriginId="8692951" iris:contributor="ISC" iris:contributorEventId="7702943" iris:catalog="ISC">
+<time>
+<value>2005-10-06T09:28:54.400</value>
+</time>
+<creationInfo>
+<author>CSEM</author>
+</creationInfo>
+<latitude>
+<value>28.4423</value>
+</latitude>
+<longitude>
+<value>-17.6271</value>
+</longitude>
+<depth>
+<value>3000.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19134839">
+<mag>
+<value>2.2</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19134838">
+<mag>
+<value>3.2</value>
+</mag>
+<type>mb</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19134841">
+<mag>
+<value>3.2</value>
+</mag>
+<type>mb</type><creationInfo>
+<author>CSEM</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=2179653">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19063233</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=3967683</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=3967683" iris:contributorOriginId="8579962" iris:contributor="ISC" iris:contributorEventId="7553500" iris:catalog="ISC">
+<time>
+<value>2005-08-30T23:55:19.100</value>
+</time>
+<creationInfo>
+<author>CSEM</author>
+</creationInfo>
+<latitude>
+<value>28.387</value>
+</latitude>
+<longitude>
+<value>-17.5681</value>
+</longitude>
+<depth>
+<value>0.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19063231">
+<mag>
+<value>2.0</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19063233">
+<mag>
+<value>2.7</value>
+</mag>
+<type>mb</type><creationInfo>
+<author>CSEM</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=2140062">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19040296</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=3959658</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=3959658" iris:contributorOriginId="7798448" iris:contributor="ISC" iris:contributorEventId="7552458" iris:catalog="ISC">
+<time>
+<value>2005-08-18T23:12:06.590</value>
+</time>
+<creationInfo>
+<author>MDD</author>
+</creationInfo>
+<latitude>
+<value>28.5806</value>
+</latitude>
+<longitude>
+<value>-17.7126</value>
+</longitude>
+<depth>
+<value>32299.999999999996</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19040296">
+<mag>
+<value>1.7</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=2032301">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19007265</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=3948193</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=3948193" iris:contributorOriginId="7798142" iris:contributor="ISC" iris:contributorEventId="7551517" iris:catalog="ISC">
+<time>
+<value>2005-08-02T20:18:26.820</value>
+</time>
+<creationInfo>
+<author>MDD</author>
+</creationInfo>
+<latitude>
+<value>28.5916</value>
+</latitude>
+<longitude>
+<value>-17.7711</value>
+</longitude>
+<depth>
+<value>0.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19007265">
+<mag>
+<value>2.7</value>
+</mag>
+<type>mb</type><creationInfo>
+<author>CSEM</author>
+</creationInfo>
+</magnitude>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=19007264">
+<mag>
+<value>1.2</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+</event>
+<event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=1877132">
+<type>earthquake</type>
+<description xmlns:iris="http://service.iris.edu/fdsnws/event/1/" iris:FEcode="394">
+<type>Flinn-Engdahl region</type>
+<text>CANARY ISLANDS, SPAIN REGION</text>
+</description><preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=18169970</preferredMagnitudeID>
+<preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=3666572</preferredOriginID>
+<origin xmlns:iris="http://service.iris.edu/fdsnws/event/1/" publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=3666572" iris:contributorOriginId="6935906" iris:contributor="ISC" iris:contributorEventId="7359563" iris:catalog="ISC">
+<time>
+<value>2004-06-23T02:15:59.620</value>
+</time>
+<creationInfo>
+<author>MDD</author>
+</creationInfo>
+<latitude>
+<value>28.39</value>
+</latitude>
+<longitude>
+<value>-17.4958</value>
+</longitude>
+<depth>
+<value>0.0</value>
+</depth>
+</origin>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=18169970">
+<mag>
+<value>1.9</value>
+</mag>
+<type>mb</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+<magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=18169969">
+<mag>
+<value>1.5</value>
+</mag>
+<type>mbLg</type><creationInfo>
+<author>MDD</author>
+</creationInfo>
+</magnitude>
+</event>
+</eventParameters>
+</q:quakeml>

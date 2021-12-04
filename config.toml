@@ -1,0 +1,28 @@
+name = "GeoPandas Config"
+
+[default]
+profile_name = "Profile"
+global_geojson_file = "data/ter1638644509267_latMin26.6_longMin-19..geojson"
+global_geojson_slice_file = "data/lapalma-datetime-slice.geojson"
+nasa_url = "https://search.earthdata.nasa.gov/search?q=C1299783579-LPDAAC_ECS&m=28.518865105672898!-19.66552734375!7!1!0!0%2C2"
+epsg_url = "https://epsg.io/map#srs=4326&x=-17.807&y=28.599&z=10&layer=streets"
+
+[IGN]
+search_url = "https://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/searchTerremoto?"
+latMin= 26.6412193530742
+latMax= 30.244734978074202
+longMin= -19.694437169627594
+longMax= -15.212015294627593
+startDate="01/01/2010"
+endDate= ""
+selIntensidad= "N"
+selMagnitud= "N"
+selProf= "N"
+fases= "no"
+
+[profile1]
+profile_name = "Profile 1"
+maxlat=28.984
+minlon=-18.237
+maxlon=-17.364
+minlat=28.212

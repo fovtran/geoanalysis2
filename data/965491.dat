@@ -1,0 +1,24 @@
+DATA_TYPE BULLETIN IMS1.0
+Unknown Bulletin of the GSE_IDC from 1996/01/01 00:00:00 to 2014/10/06 07:51:13,  generated 2014/10/06 07:51:14
+EVENT   965491 CANARY ISLANDS REGION
+   Date       Time        Err   RMS Latitude Longitude  Smaj  Smin  Az Depth   Err Ndef Nsta Gap  mdist  Mdist Qual   Author      OrigID
+2010/01/04 18:12:34.12   0.72  0.16  27.6632  -18.0746   7.8   4.3 144  37.7   4.9    9    5 308   0.12   1.41 m i uk bull_2     1028175
+
+Magnitude  Err Nsta Author      OrigID
+mbLg   2.2 0.2    5 bull_2     1028175
+
+ (PRÓXIMO)
+ (TEC: ANTORRENA)
+ (LOC: SW EL PINAR.IHI)
+ (TT-MODELL:Canary)
+Sta     Dist  EvAz Phase        Time      TRes  Azim AzRes   Slow   SRes Def   SNR       Amp   Per Qual Magnitude    ArrID
+CHIE    0.12  57.8 P        18:12:39.898  -0.1                           T__  17.7      17.1  0.08 mD_            17008523
+CHIE    0.12  57.8 S        18:12:44.360   0.0                           T__   9.8      41.2  0.12 a__ mbLg   2.0 17008425
+CTIG    0.18  47.3 P        18:12:40.462   0.0                           T__  17.7      13.7  0.10 mC_            17008522
+CTIG    0.18  47.3 S        18:12:45.250   0.1                           T__   7.9      30.0  0.08 m__ mbLg   2.1 17008521
+EGOM    0.91  56.9 P        18:12:49.450   0.4                           T__   7.9       2.7  0.04 m__            17008520
+EGOM    0.91  56.9 S        18:13:00.136  -0.1                           T__  13.6      21.7  0.06 a__ mbLg   2.7 17008426
+EHIG    0.92  14.9 S        18:13:00.345  -0.1                           T__   7.9      13.4  0.10 m__ mbLg   2.3 17008518
+CCAN    1.41  66.5 P        18:12:55.929  -0.1                           T__   7.9       0.3  0.12 m__            17008516
+CCAN    1.41  66.5 S        18:13:12.484   0.1                           T__   7.9       2.5  0.12 m__ mbLg   1.8 17008517
+

@@ -1,0 +1,10 @@
+serial
+youtube_dl
+pyo3_benchmarks
+setuptools
+setuptools_rust
+pytest
+pyo3_pytests
+hypothesis
+setuptools_rust_starter
+osgeo

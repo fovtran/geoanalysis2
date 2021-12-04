@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name> Active Volcanoes Around the World</name>
+    <description>These are the active volcanoes that we have found in our studies of rocks and minerals.</description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Mauna Loa Volcano</name>
+        <description><![CDATA[Researched by Enzo.<br>Mauna Loa is the biggest volcano in the world. It has been erupting for at least 700,000 years and may have emerged above sea level 400,000 years ago.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -155.380508,19.483395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Volcán Popocatépetl</name>
+        <description><![CDATA[Aztec name means 'smoking mountain']]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -98.62401,19.022666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grimsvotn - Iceland</name>
+        <description><![CDATA[Erupted May 21, 2011 <br>The smoke reached up to 20km in the sky!]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -17.050781,65.874725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yasur Volcano - Vanatu</name>
+        <description>Has been continuously erupting for 800 years!</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            169.441881,-19.528407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mauna Loa Volcano - Hawaii</name>
+        <description><![CDATA[The world's largest active volcano at over 900 meters high!<br>Last eruption 1984]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -155.380508,19.483395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aso Volcano - Japan</name>
+        <description><![CDATA[Last erupted in 2011<br>Is a 'caldera' which means the top collapses.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            130.7025,32.799865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yellowstone - USA</name>
+        <description><![CDATA[Home to more than just a volcano, half the earth's geysers are found here!]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.705624,45.034715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kilauea Volcano - Hawaii</name>
+        <description><![CDATA[Researched by Karmen, Emma, Robin  Maya & Faraz.<br>Karmen - One of the most active volcanoes in the world. It has been erupting  continuously since January 1983. When I visited this volcano I saw the newest land in the world! The lava was flowing into the Pacific and created a lot of steam<br>Emma - It is the home of Pele the Hawaiian Volcano goddess. Hawaiian chants and oral traditions tell of the many eruptions.<br>Robin - It is located on the main island of Hawaii.  It bubbles and spits out red hot lava almost everyday. It is called a shield volcano because it looks like a Greek shield. The crater inside is called Halemaulmau.<br>Maya - in the Hawaiian language Kilauea means 'spewing' or  'much spreading'. Hawaiians believe that the many eruptions are caused by an angry Pele.  Since 1952 there have been 34 eruptions.  the oldest dated rock found there is 23,000 years old.<br>Faraz - It is the most active of the 5 volcanoes that form the island of Hawaii.  It is 300,000-600,000 years old.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -155.283551,19.40099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pacaya Volcano - Guatemala</name>
+        <description><![CDATA[A 'caldera' volcano, which means there are lots and lots of eruptions.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.60133,14.38397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Etna - Italy</name>
+        <description><![CDATA[Researched by Marcus<br>It is the largest volcano in Europe.  It is considered a rare volcano because it has erupting smoke rings.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            14.994621,37.759587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Chichon Volcano</name>
+        <description><![CDATA[Another name for this volcano is "The Bump".<br>Last eruption in 1982 killed 2000 people.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -120.087776,36.027445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Fortuna - El Castillo</name>
+        <description>Costa Rica</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.737892,10.45479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arenal Volcano National Park</name>
+        <description><![CDATA[First erupted in 1968 <br>last eruption October 2010<br>It is considered a young volcano.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.734747,10.423422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt  Eyjafjallaokull - Iceland</name>
+        <description><![CDATA[Researched by Allan - Means 'glacier'.  Last eruption March 2010.  Has several earthquakes daily.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -19.637303,63.630519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Batur - Indonesia</name>
+        <description><![CDATA[Kintamani 80652, Indonesia<br>Researched by Ilan.  It first erupted in 1804 & has been]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            115.375,-8.242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colima, Mexico</name>
+        <description><![CDATA[Researched by Alisha<br>It is one of the most active and dangerous volcanoes in Central America.  In 1973 a major eruption left a deep crater.  A new lava dome continues to grow inside the crater.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.733455,19.245226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Merapi</name>
+        <description><![CDATA[Musuk 2 57361, Indonesia<br>Researched by Chloe<br>It is Indonesia's most active volcano, erupting every 5-10 years.  It is feared for its deadly lava, so far 353 deaths have been a result of its eruptions.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            110.446667,-7.540556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canlaon Volcano</name>
+        <description><![CDATA[Canla-on National Park, Philippines<br>Researched by Rosa & Alexander V.<br>Rosa -It is the most active volcano in the Philippines.  Its most recent eruption was in 2006.  It has erupted 8 times since 1988.<br>Alexander - It is part of the Pacific ring of fire, an area where large amounts of volcanic activity and earthquakes occur. In 1996 a group of hikers found themselves stranded there during an eruption, sadly several of them died.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            123.133044,10.411592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Tambora</name>
+        <description><![CDATA[Indonesia<br>Researched by Arman<br>It has the biggest eruption ever recorded in history.  In 1816 when it erupted so much ash was thrown into the air that it blocked out the sunlight, cancelling summer!  Over 92,000 people died during its eruption.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            117.958333,-8.246667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt St Helens</name>
+        <description><![CDATA[Gifford Pinchot National Forest, Washington 98616, USA<br>Researched by Roman<br>It erupted in 1982 and is 8,365 feet high.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1944,46.1912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Erebus</name>
+        <description><![CDATA[Antarctica<br>Researched by Aksel & Quinn.<br>Aksel - It was discovered in 1841 by Sir James Clark Ross.<br>Quinn - It is a Strato volcano meaning that it is built up of alternate layers of lava and ash.  It has frequent Strombolian eruptions meaning they happen in short bursts of lava eruptions.  Its last eruption was in 2011.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            167.075701,-77.531056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mauna Kea</name>
+        <description><![CDATA[Hawaii, USA<br>Researched by Riley<br>It stands 4,205 metres above sea level and is about twice as tall as Mount Everest.  it is about 500 million years old.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -155.470833,19.823611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pulau Krakatau</name>
+        <description><![CDATA[Indonesia<br>Researched by Alexander G<br>It erupted in 1883 creating one of the most powerful and destructive explosions ever.  The explosion was equal to 200mega tons of TNT!  Almost 40,000 people died in the eruption.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            105.436096,-6.152738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Haleakala</name>
+        <description><![CDATA[Researched by Liam<br>Haleakala volcano is located in east Maui, it means "house of the sun" in Hawaiian.  People have lived near it from more than a 1000 years and it has erupted numerous times.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -156.18184,20.721759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
