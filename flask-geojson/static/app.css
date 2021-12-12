@@ -1,0 +1,27 @@
+/* Styles go here */
+
+.animate-list {
+  line-height:40px;
+  box-sizing:border-box;
+}
+
+.animate-list.ng-move,
+.animate-list.ng-enter,
+.animate-list.ng-leave {
+  -webkit-transition:all ease-out 0.5s;
+  transition:all ease-out 1s;
+}
+ 
+.animate-list.ng-leave.ng-leave-active,
+.animate-list.ng-move,
+.animate-list.ng-enter {
+  opacity:0;
+  max-height:0;
+}
+
+.animate-list.ng-leave,
+.animate-list.ng-move.ng-move-active,
+.animate-list.ng-enter.ng-enter-active {
+  opacity:1;
+  max-height:40px;
+}

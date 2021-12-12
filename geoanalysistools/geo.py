@@ -48,7 +48,7 @@ def color_map_color(value, cmap_name='viridis', vmin=0.0, vmax=6.0):
     color = matplotlib.colors.rgb2hex(rgb)
     return color
 
-def SeriesCutByDate(start_date, end_date,dframe):
+def SeriesCutByDate(start_date, end_date, dframe):
     # Somethin's wrong with the series from GeonJSON.
     df2 = dframe.copy()
     after_start_date = df2["Date"] >= pd.to_datetime(start_date,infer_datetime_format=False, format='%Y/%m/%d')
@@ -57,7 +57,7 @@ def SeriesCutByDate(start_date, end_date,dframe):
     return df2.loc[between_two_dates]
 
 def saveGeoJsonSlice(df, start_date, end_date, filename):
-    df2 = SeriesCutByDate(start_date, end_date, df)
+    df2 = SeriesCutByDate(start_date, end_date, df.copy())
     df2.to_file(filename, driver="GeoJSON")
 
 #series = RaceDataSeries(dataframe=df, params=seism_params, depth_key='profundidad').get_one('nominal').index

@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+   <body>
+      <h1>COVID-19 Chart</h1>
+
+      {% for regionname in regions %}
+        <p>{{ regionname }}</p>
+        <img src="/api/region.png/{{ regionname }}" alt="{{ regionname }}">
+      {% endfor %}
+   </body>
+</html>

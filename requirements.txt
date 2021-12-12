@@ -8,3 +8,10 @@ pyo3_pytests
 hypothesis
 setuptools_rust_starter
 osgeo
+
+flask-restful
+geopandas
+pandas
+matplotlib
+toml
+numpy

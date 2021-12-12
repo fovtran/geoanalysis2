@@ -26,7 +26,8 @@ from pyarma import log, log10, stddev, var, mean, median, conj
 from numpy import zeros, matrix, float64, linalg, arange, array, ndarray, array
 from numpy import set_printoptions, inf, nan, savetxt, savez, load
 
-set_printoptions(precision=14, threshold=sys.maxsize)
+from geoanalysistools.geo import *
+np.set_printoptions(precision=14, threshold=sys.maxsize)
 
 
 # __version__ = '0.1'
@@ -212,18 +213,25 @@ class Window(QWidget):
         """plot some random stuff"""
         qsize = 1024 * 8
         # data = [random.random() for i in range(qsize)]
-        pfilename = "my-pickle"
-        db = load(pfilename + ".npz")
-        M = db["V"][:, 0]
-        U = db["U"]
-        C = db["C"]
-        depth = C[:, 0]
-        intensity = C[:, 1]
-        A = db["A"]
+        #pfilename = "my-pickle"
+        #db = load(pfilename + ".npz")
+        #M = db["V"][:, 0]
+        #U = db["U"]
+        #C = db["C"]
+        #depth = C[:, 0]
+        #intensity = C[:, 1]
+        #A = db["A"]        
+        # M = array([[[1],[2],[3]], [[4],[5],[6]]])
+        #print(M.shape)
+        
+        df = gpd.read_file( 'data/lapalma-datetime-slice.geojson', driver="GeoJSON" )
+        df[["Date"]] = df[["Date"]].apply(pd.to_datetime)
+        gdf = GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitud, df.latitud))
+        intensity = gdf.magnitud.to_numpy()
+        depth = gdf.profundidad.to_numpy()
 
         p = 1
-        # M = array([[[1],[2],[3]], [[4],[5],[6]]])
-        print(M.shape)
+
         _MAT = matrix([depth, intensity])
         print(_MAT)
         A = zeros((depth.shape[0], intensity.shape[0]))
@@ -232,7 +240,7 @@ class Window(QWidget):
         S = linalg.norm(_U, p)
         _normal = normalise(_U, p)
         print(f"norm: {P} {S}")
-        f = savetxt(sys.stdout, _normal)
+        #f = savetxt(sys.stdout, _normal)
         _NORM = matrix(_normal)
         _NORM_D = _NORM[0][0]
         _NORM_I = _NORM[1][0]
@@ -242,12 +250,12 @@ class Window(QWidget):
         # instead of ax.hold(False)
         self.figure.clear()
         # create an axis
-        ax1 = self.figure.add_subplot(311)
-        ax2 = self.figure.add_subplot(312)
-        ax3 = self.figure.add_subplot(313)
-        ax1.plot(depth, ".", color="red")
-        ax2.plot(intensity, ".", color="green")
-        ax3.plot(_NORM_D, _NORM_I, ".", color="orange")
+        ax1 = self.figure.add_subplot(211)
+        ax2 = self.figure.add_subplot(212)
+        #ax3 = self.figure.add_subplot(313)
+        ax1.plot(depth, ".", markersize=1, color="red")
+        ax2.plot(intensity, ".", markersize=1, color="green")
+        #ax3.plot(_NORM_D, _NORM_I, ".", color="orange")
 
         # refresh canvas
         self.canvas.draw()
